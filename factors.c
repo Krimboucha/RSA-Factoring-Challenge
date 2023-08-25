@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 			if (num % p == 0)
 			{
 				int q = num / p;
-				printf("%d = %d * %d\n", num, p, q);
+				printf("%d=%d*%d\n", num, p, q);
 				break;
 				}
 				p++;
